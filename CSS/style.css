@@ -1,0 +1,155 @@
+span{
+    font-weight: 750;
+    color:#831beb
+}
+
+.hs{
+    text-decoration: underline;
+    color:#9c18ab;
+    font-size: 24px;
+}
+
+.bold{
+    font-weight: 800;
+    font-size: 50px;
+    color: #8835da;
+    padding: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: #831beb;
+    text-align: center;
+}
+
+.bodyText{
+    color: #360864;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ul{
+    text-decoration: underline;
+    font-weight: 600;
+    color:#9c18ab;
+}
+
+
+.around{
+    padding: 10%;
+}
+
+.bodyText{
+    color:#360864;
+    text-align: center;
+}
+
+body {
+    background: rgb(233, 211, 248);
+}
+
+#img1{
+    width: 80%;
+    justify-self: center;
+    padding-left: 10%;
+}
+
+.navbar {
+    background:#9f4eef;
+    margin: 0, auto;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(245, 251, 64);
+    text-decoration-line: underline;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.card-img-top{
+    height: 15%;
+    width: 55%;
+    background-color: #be8fede7;
+    border-radius: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hero{
+    padding: 5%;
+}
+
+#LULogo{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 30%;
+    margin: auto;
+}
+
+
+.card{
+    border-color: rgba(254, 254, 139, 0.846);
+    border-width: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f8f1ff;
+}
+
+.aroundcard{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#f7f6e0;
+}
+
+.card-header{
+    background-color: #eddefc00;
+    color:rgb(168, 43, 190);
+    margin: 0 auto;
+    width:100%;
+    font-size: 40px;
+}
+
+.card-body{
+    color: #8d25b0;
+}
+
+.card-title{
+    color:#9e0fad;
+    font-size: 24px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.title2{
+    text-decoration: underline;
+    color: #50138c;
+}
+
+.card-body2{
+    color:#50138c;
+    padding-top: 0;
+    padding: 10%;
+    margin: auto 0;
+}
+
+
+.RESEARCH{
+    background-color: #f5ecfd;
+    padding: 5%;
+}
+
