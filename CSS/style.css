@@ -1,61 +1,23 @@
-span{
-    font-weight: 750;
-    color:#831beb
+
+/* ------------------------  MEDIA QUERIES ------------------------ */
+
+@media screen and (max-width:375px){
+    .DC{
+        text-align: center;
+    }
 }
 
-.hs{
-    text-decoration: underline;
-    color:#9c18ab;
-    font-size: 24px;
+@media screen and (max-width:1000px) {
+    
+    .DC{
+        text-align: center;
+    }
 }
 
-.bold{
-    font-weight: 800;
-    font-size: 50px;
-    color: #8835da;
-    padding: 10%;
-}
-
-h1{
-    text-align: center;
-}
-
-h2{
-    color: #831beb;
-    text-align: center;
-}
-
-.bodyText{
-    color: #360864;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.ul{
-    text-decoration: underline;
-    font-weight: 600;
-    color:#9c18ab;
-}
+/* -------------------------------- NAVIGATION STYLING ---------------------------------------------- */
 
 
-.around{
-    padding: 10%;
-}
 
-.bodyText{
-    color:#360864;
-    text-align: center;
-}
-
-body {
-    background: rgb(233, 211, 248);
-}
-
-#img1{
-    width: 80%;
-    justify-self: center;
-    padding-left: 10%;
-}
 
 .navbar {
     background:#9f4eef;
@@ -78,24 +40,204 @@ body {
     justify-content: flex-end;
 }
 
-.card-img-top{
-    height: 15%;
-    width: 55%;
-    background-color: #be8fede7;
-    border-radius: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+/*------------------------------------ END NAVIGATION ----------------------------------------------*/
+
+/* -------------------------------   OVERALL BLANKET STYLES  ------------------------------------------ */
+
+span{
+    font-weight: 750;
+    color:#831beb
 }
 
-.hero{
+body {
+    background: rgb(228, 186, 255);
+}
+
+
+h1{
+    text-align: center;
+    color:#8a45d0;
+    font-size: 48px;
+    font-weight: 600;
     padding: 5%;
+}
+
+h2{
+    color: #831beb;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.bold{
+    font-weight: 600;
+    font-size: 24px;
+    color: #8835da;
+    padding: 10%;
+}
+
+.ul{
+    text-decoration: underline;
+    font-weight: 400;
+    color:#9c18ab;
+}
+
+.hs{
+    text-decoration: underline;
+    color:#9c18ab;
+    font-size: 24px;
+}
+
+.row{
+    padding: 5;
+}
+
+/*------------------------------------ END OVERALL STYLES ----------------------------------------------*/
+
+
+/* -------------------------------   SECTION HEADING STYLES  ------------------------------------------ */
+
+.RESEARCH{
+    background-color: #ead5ff;
+}
+
+.ITERATION{
+    background-color:#f8f7a8;
+    width: 100%;
+}
+
+.PROTOTYPING{
+    background-color: #872de1;
+}
+
+/*------------------------------------ END SECTION HEADINGS ----------------------------------------------*/
+
+
+/* -------------------------------           IMAGES        ------------------------------------------ */
+
+.img-fluid{
+    padding: 5%;
+}
+
+#img1{
+    width: 80%;
+    justify-self: center;
+    padding-left: 10%;
 }
 
 #LULogo{
     padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 30%;
-    margin: auto;
+    padding-left: 22%;
+}
+
+/*------------------------------------ END IMAGES ----------------------------------------------*/
+
+/* -------------------------------    TEXT STYLES   ------------------------------------------ */
+
+.card-text{
+    font-size: 20px;
+}
+
+
+.bodyText{
+    color:#360864;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bodyBold{
+    color: #680fc1;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.ProText{
+    color:#f8f7a8;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+    padding: 5%;
+}
+
+.pro{
+    color:#f8f7a8;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+
+.DC{
+    color:#f8f7a8;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: start;
+    padding: 5%;
+
+}
+
+/*------------------------------------ END TEXT ----------------------------------------------*/
+
+
+/* ------------------------------- TITLES AND HEADERs ------------------------------------------ */
+
+.card-header{
+    background-color: #eddefc00;
+    color:rgb(168, 43, 190);
+    margin: 0 auto;
+    width:100%;
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.card-title{
+    color:#9e0fad;
+    font-size: 24px;
+}
+
+.title2{
+    text-decoration: underline;
+    color: #50138c;
+}
+/* ---------------------------- END TITLES AND HEADERS ------------------------------------------ */
+
+
+/* -------------------------------    DIV STYLES    ------------------------------------------ */
+
+.card-body{
+    color: #8d25b0;
+}
+
+.card-body2{
+    color:#50138c;
+    padding-top: 0;
+    padding: 10%;
+    margin: auto 0;
+}
+
+.dirCom{
+    background-color: #c7a4ea78;
+    width: 80%;
+    height: 95%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.ind{
+    background-color: #7f1de097;
+    margin: 0 auto;
+}
+
+
+.card-img-top{
+    height: 15%;
+    width: 75%;
+    background-color: #be8fede7;
+    border-radius: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -107,6 +249,10 @@ body {
     background-color: #f8f1ff;
 }
 
+.around{
+    padding-bottom: 5%;
+}
+
 .aroundcard{
     padding-top: 10%;
     padding-left: 10%;
@@ -114,42 +260,34 @@ body {
     background-color:#f7f6e0;
 }
 
-.card-header{
-    background-color: #eddefc00;
-    color:rgb(168, 43, 190);
-    margin: 0 auto;
-    width:100%;
-    font-size: 40px;
+/*------------------------------------ END DIVS ----------------------------------------------*/
+
+
+/* ---------------  ***MISC IDS***  --------------- */
+
+#sketch{
+    padding-left: 10%;
 }
 
-.card-body{
-    color: #8d25b0;
+#belowSketch{
+    padding-top: 10%;
 }
 
-.card-title{
-    color:#9e0fad;
-    font-size: 24px;
-}
-
-.card-text{
+#InDir{
+    color:#f8f7a8;
     font-size: 20px;
+    font-weight: 300;
+    text-align: center;
 }
 
-.title2{
-    text-decoration: underline;
-    color: #50138c;
-}
-
-.card-body2{
-    color:#50138c;
-    padding-top: 0;
-    padding: 10%;
-    margin: auto 0;
-}
-
-
-.RESEARCH{
-    background-color: #f5ecfd;
+#shine{
+    color:#f8f7a8;
+    font-size: 20px;
+    font-weight: 300;
+    text-align:left;
     padding: 5%;
 }
 
+/* -- #IMG1 & #LULogo ID's can be found in IMG section -- */
+
+/* END STYLES */
