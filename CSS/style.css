@@ -1,23 +1,33 @@
 
 /* ------------------------  MEDIA QUERIES ------------------------ */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:375){
     .DC{
         text-align: center;
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1000) {
     
     .DC{
         text-align: center;
     }
 }
 
+@media screen and (max-width:375){
+    p{
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width:800){
+   p{
+        font-size: 16px !important;
+    }
+
+}
+
 /* -------------------------------- NAVIGATION STYLING ---------------------------------------------- */
-
-
-
 
 .navbar {
     background:#9f4eef;
@@ -65,7 +75,7 @@ h1{
 h2{
     color: #831beb;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .bold{
@@ -115,7 +125,7 @@ h2{
 /* -------------------------------           IMAGES        ------------------------------------------ */
 
 .img-fluid{
-    padding: 5%;
+    padding: 1%;
 }
 
 #img1{
@@ -127,6 +137,25 @@ h2{
 #LULogo{
     padding-top: 5%;
     padding-left: 22%;
+}
+
+.room{
+    padding: 5%;
+}
+
+.moreRoom{
+    padding: 10%;
+}
+
+/* ------- **** Nintendo Dudes **** -------- */
+
+.star{
+    padding-top: 200px;
+    padding-bottom: 50px; 
+}
+
+.mushroom{
+    padding-top: 10px;
 }
 
 /*------------------------------------ END IMAGES ----------------------------------------------*/
@@ -159,13 +188,21 @@ h2{
     font-weight: 200;
     font-size: 24px;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 .pro{
     color:#f8f7a8;
     text-decoration: underline;
     font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+.proBold{
+    color:#f8f7a8;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 
@@ -175,7 +212,15 @@ h2{
     font-size: 20px;
     text-align: start;
     padding: 5%;
+    padding-top: 25%;
 
+}
+
+.headerBold{
+    color:#ead7fd;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 32px;
 }
 
 /*------------------------------------ END TEXT ----------------------------------------------*/
@@ -201,6 +246,10 @@ h2{
     text-decoration: underline;
     color: #50138c;
 }
+
+/*.mid{
+    padding-top: 4%;
+}
 /* ---------------------------- END TITLES AND HEADERS ------------------------------------------ */
 
 
@@ -218,7 +267,7 @@ h2{
 }
 
 .dirCom{
-    background-color: #c7a4ea78;
+    background-color: #ba84f078;
     width: 80%;
     height: 95%;
     margin: 0 auto;
@@ -273,7 +322,7 @@ h2{
     padding-top: 10%;
 }
 
-#InDir{
+.InDir{
     color:#f8f7a8;
     font-size: 20px;
     font-weight: 300;
