@@ -124,6 +124,8 @@ h2{
 
 /* -------------------------------           IMAGES        ------------------------------------------ */
 
+
+
 .img-fluid{
     padding: 1%;
 }
@@ -149,13 +151,21 @@ h2{
 
 /* ------- **** Nintendo Dudes **** -------- */
 
-.star{
-    padding-top: 200px;
-    padding-bottom: 50px; 
-}
 
 .mushroom{
     padding-top: 10px;
+}
+
+
+
+.lilDudesDown{
+    padding-top: 50px;
+}
+
+.lilDudesDown2{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30x;
 }
 
 /*------------------------------------ END IMAGES ----------------------------------------------*/
