@@ -524,6 +524,57 @@ h2{
     background-color: #dcc0f869;
 }
 
+/***** FOOTER *******/
+
+.footerbgc{
+    background-color: #081151;
+}
+
+ter section*/
+
+.foot{
+    padding-left: 20%;
+}
+
+
+.footer{
+    font-size: 24px;
+    color:#ffff;
+    display: flex;
+}
+
+.ft{
+    display: flex;
+}
+
+.Anna{
+    padding-left: 45%;
+    padding-right: 5%;
+    padding-top: 4%;
+}
+
+.contactlist{
+    padding-left: 10%;
+}
+
+.social{
+    padding: 5%;
+}
+
+p.contact{
+    justify-content: start;
+    padding: 2%;
+    font-size: 32px;
+    text-decoration: underline;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*End Footer*/
+
 /* -- #IMG1 & #LULogo ID's can be found in IMG section -- */
 
 /* END STYLES */
+
+/* ---------- *** FOOTER *** ----------------*/
+
